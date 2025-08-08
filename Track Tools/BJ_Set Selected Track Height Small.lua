@@ -1,6 +1,7 @@
 
 -- @description BJ_Set Selected Track height to Small * @version 1.0
 -- @author Mike DelGaudio
+-- @version 1.0
 -- @authorURI http://boothjunkie.com
 -- @about
 --    Sets the height of any selected track to 100 pixels.
