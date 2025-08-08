@@ -1,23 +1,28 @@
-# ReaPack Repository Template
+# BoothJunkie ReaScripts
 
-A template for GitHub-hosted ReaPack repositories with automated
-[reapack-index](https://github.com/cfillion/reapack-index)
-running from GitHub Actions.
+A growing collection of ReaScripts to help organize projects, streamline workflows, and improve efficiency in Reaper.
 
-Replace the name of the repository in [index.xml](/index.xml) when using this template.
-This will be the name shown in ReaPack.
+---
 
-```xml
-<index version="1" name="Name of your repository here">
-```
+## 📦 Script Categories
 
-Replace the contents of this file ([README.md](/README.md)).
-This will be the text shown when using ReaPack's "About this repository" feature.
+- [Regions Makers and Cueing](./Regions%20Markers%20and%20Cueing/README.md) – Making your projects eacier to navigate
+- [Track Tools](./Track%20Tools/README.md) – Scripts to help make tracks easier to use in larger projects
+- [Project Organization](./Project%20Organization/README.md) – Making your projects eacier to navigate
+- [Utilities](./Utilities/README.md) – Utility helper scripts that don't fit in the other categories
+- [Billing and Reports](./Billing%20and%20Reports/README.md) – Scripts to help you with invoicing, billing customers or reports.
+- [Demonstration Tools](./Demonstration%20Tools/README.md) – Scripts that help create items for testing other scripts.
+- [Video Processor Presets](./Video%20Processor%20Presets/README.md) – Scripts that help create items for testing other scripts.
+---
 
-reapack-index looks for package files in subfolders.
-The folder tree represents the package categories shown in ReaPack.
+## 🔧 Installation via ReaPack
 
-Each package file is expected to begin with a metadata header.
-See [Packaging Documentation](https://github.com/cfillion/reapack-index/wiki/Packaging-Documentation) on reapack-index's wiki.
+1. Add this repo as a ReaPack source.
+2. Synchronize packages.
+3. Browse and install scripts by category.
 
-The URL to import in ReaPack is [https://github.com/`<your username>`/`<repository name>`/raw/master/index.xml](https://github.com/cfillion/reapack-repository-template/raw/master/index.xml).
+---
+
+## ☕ Support
+
+If you find these useful, [buy me a coffee](https://www.buymeacoffee.com/boothjunkie).

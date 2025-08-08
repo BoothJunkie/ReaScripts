@@ -1,0 +1,16 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Reaper cruft
+reapack.log
+
+# Other common junk
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
