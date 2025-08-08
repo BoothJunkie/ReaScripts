@@ -1,6 +1,6 @@
 --[[ 
 * @description BJ_Item Creator (Configurable Item Generator)
-*@version 1.4
+* @version 1.4
 * @author Mike DelGaudio
 * @authorURI http://boothjunkie.com
 * @about
