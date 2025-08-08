@@ -1,17 +1,14 @@
-
--- @description BJ_Set Selected Track height to Small * @version 1.0
--- @author Mike DelGaudio
+-- @description BJ_Set Selected Track height to Small
 -- @version 1.0
+-- @author Mike DelGaudio
 -- @authorURI http://boothjunkie.com
 -- @about
---    Sets the height of any selected track to 100 pixels.
---    Useful for quick resizing of track heights for editing and using free item positioning.
---    Select the track you want to make small-sized and run this action.
+--   Sets the height of any selected track to 100 pixels.
+--   Useful for quick resizing of track heights for editing and using free item positioning.
+--   Select the track you want to make small-sized and run this action.
 -- @donation https://www.buymeacoffee.com/boothjunkie
 -- @license MIT
 -- @reaper 6.0
-
-
 
 function set_selected_tracks_height(height)
     -- Loop through all selected tracks and set their height
