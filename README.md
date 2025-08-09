@@ -12,7 +12,7 @@ A growing collection of ReaScripts to help organize projects, streamline workflo
 - [Utilities](./Utilities/README.md) – Utility helper scripts that don't fit in the other categories
 - [Billing and Reports](./Billing%20and%20Reports/README.md) – Scripts to help you with invoicing, billing customers or reports.
 - [Demonstration Tools](./Demonstration%20Tools/README.md) – Scripts that help create items for testing other scripts.
-- [Video Processor Presets](./Video%20Processor%20Presets/README.md) – Scripts that help create items for testing other scripts.
+
 ---
 
 ## 🔧 Installation via ReaPack
