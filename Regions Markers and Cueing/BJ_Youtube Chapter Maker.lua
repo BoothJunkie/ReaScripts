@@ -1,5 +1,5 @@
 --[[
- * @description BoothJunkie - YouTube Chapter Maker
+ * @description BJ_YouTube Chapter Maker
  * @version 1.1
  * @author Mike DelGaudio (Booth Junkie)
  * @about

@@ -1,5 +1,5 @@
 --[[
- * @description BoothJunkie - Final Run Time Calculator
+ * @description BJ_Final Run Time Calculator
  * @version 2.3
  * @author Mike DelGaudio (Booth Junkie)
  * @about
