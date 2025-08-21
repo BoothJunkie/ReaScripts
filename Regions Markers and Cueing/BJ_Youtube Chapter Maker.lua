@@ -7,7 +7,7 @@
  *    For each region, it finds markers starting with "CHAP=" and generates timestamps
  *    relative to the region start. Creates YOUTUBE-[RegionName].txt files in project directory.
  * @donation https://www.buymeacoffee.com/boothjunkie
- * @license MIT
+ * @license MIT 
  * @reaper 6.0
 --]]
 
