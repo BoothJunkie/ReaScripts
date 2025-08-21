@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Booth Junkie Reascripts" commit="d1d93d225b384c78b574ec7a37050e203f2cf9db">
+<index version="1" name="Booth Junkie Reascripts" commit="74a4d305841152e5d7c38afd998d68612d96bb8e">
   <category name="Billing and Reports">
     <reapack name="BJ_Calculate FRT of all items on a single track.lua" type="script" desc="BJ_Calculate FRT of All Items on a Single Track">
       <metadata>
@@ -16,7 +16,7 @@
         <source main="main">https://github.com/BoothJunkie/ReaScripts/raw/937f3089beff68237cbe3057e8fc957310aabca0/Billing%20and%20Reports/BJ_Calculate%20FRT%20of%20all%20items%20on%20a%20single%20track.lua</source>
       </version>
     </reapack>
-    <reapack name="BJ_Final Runtime Calculator.lua" type="script" desc="BoothJunkie - Final Run Time Calculator">
+    <reapack name="BJ_Final Runtime Calculator.lua" type="script" desc="BJ_Final Run Time Calculator">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -293,7 +293,7 @@
         <source main="main">https://github.com/BoothJunkie/ReaScripts/raw/937f3089beff68237cbe3057e8fc957310aabca0/Regions%20Markers%20and%20Cueing/BJ_Quick%20Markers.lua</source>
       </version>
     </reapack>
-    <reapack name="BJ_Youtube Chapter Maker.lua" type="script" desc="BoothJunkie - YouTube Chapter Maker">
+    <reapack name="BJ_Youtube Chapter Maker.lua" type="script" desc="BJ_YouTube Chapter Maker">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
