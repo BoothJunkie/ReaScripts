@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Booth Juniie Reascripts" commit="51e6ad16390b822fcb85d081139bf6deeffaf675">
+<index version="1" name="Booth Junkie Reascripts" commit="51e6ad16390b822fcb85d081139bf6deeffaf675">
   <category name="Billing and Reports">
     <reapack name="BJ_Calculate FRT of all items on a single track.lua" type="script" desc="BJ_Calculate FRT of All Items on a Single Track">
       <metadata>
