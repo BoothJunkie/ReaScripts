@@ -1,6 +1,6 @@
 
 
-###BJ_YouTube Chapter Maker
+### BJ_YouTube Chapter Maker
 
 Automatically generates YouTube chapter timestamps from your REAPER project markers. Creates properly formatted text files that can be copied directly into YouTube video descriptions. Supports both region-based workflows (for batch processing multiple videos) and timeline-based workflows (for single videos). Ensures YouTube compliance by automatically adding required 0:00 chapters and maintaining ascending timestamp order.
 
