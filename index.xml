@@ -1,54 +1,603 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Booth Juniie Reascripts" commit="58a3e39ba95bd0f35846aa1f39aa4cb2574295e1">
-  <category name="Example">
-    <reapack name="cfillion_Hello world.lua" type="script" desc="Hello world">
+<index version="1" name="Booth Juniie Reascripts" commit="51e6ad16390b822fcb85d081139bf6deeffaf675">
+  <category name="Billing and Reports">
+    <reapack name="BJ_Calculate FRT of all items on a single track.lua" type="script" desc="BJ_Calculate FRT of All Items on a Single Track">
       <metadata>
-        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
-{\pard \ql \f0 \sa180 \li0 \fi0 This is an example of a package file. It installs itself as a ReaScript that does nothing but show "Hello World!" in REAPER's scripting console.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Packages may also include additional files specified using the @provides tag.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 This text is the documentation shown when using ReaPack's "About this package" feature. {\field{\*\fldinst{HYPERLINK "https://commonmark.org/"}}{\fldrslt{\ul
-Markdown
-}}}
- {\i formatting} is supported.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Calculates the final runtime (FRT) of all items on each track in the project. Outputs a plain text summary showing duration in minutes, and saves it to the project folder. Also copies the summary to your clipboard for easy pasting into invoices, emails, or notes.\par}
+}
+]]></description>
+        <link rel="donation">https://www.buymeacoffee.com/boothjunkie</link>
+      </metadata>
+      <version name="1.0" author="Mike DelGaudio" time="2025-08-08T23:23:36Z">
+        <source main="main">https://github.com/BoothJunkie/ReaScripts/raw/937f3089beff68237cbe3057e8fc957310aabca0/Billing%20and%20Reports/BJ_Calculate%20FRT%20of%20all%20items%20on%20a%20single%20track.lua</source>
+      </version>
+    </reapack>
+    <reapack name="BJ_Final Runtime Calculator.lua" type="script" desc="BoothJunkie - Final Run Time Calculator">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 This script calculates the total run time of items on each track in a REAPER project, excluding silence, and displays this information along with the file path in a message box. Useful for voice actors, producers, and audio engineers who need to quickly calculate and document the total run time of their REAPER projects.\par}
+}
+]]></description>
+        <link rel="donation">https://www.buymeacoffee.com/boothjunkie</link>
+      </metadata>
+      <version name="2.3" author="Mike DelGaudio (Booth Junkie)" time="2025-08-08T23:23:36Z">
+        <source main="main">https://github.com/BoothJunkie/ReaScripts/raw/937f3089beff68237cbe3057e8fc957310aabca0/Billing%20and%20Reports/BJ_Final%20Runtime%20Calculator.lua</source>
+      </version>
+    </reapack>
+  </category>
+  <category name="Demonstration Tools">
+    <reapack name="BJ_Create 100 Random Length adjacent MIDI items.lua" type="script" desc="BJ_Create 100 random length adjacent MIDI Items">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 This script simulates a recorded and edited chapter in an audiobook or e-learning project for use in demonstrations. Select the track and place the edit cursor where you want to add the items, then run the script.\par}
+}
+]]></description>
+        <link rel="donation">https://www.buymeacoffee.com/boothjunkie</link>
+      </metadata>
+      <version name="1.0" author="Mike DelGaudio" time="2025-08-08T23:23:36Z">
+        <source main="main">https://github.com/BoothJunkie/ReaScripts/raw/937f3089beff68237cbe3057e8fc957310aabca0/Demonstration%20Tools/BJ_Create%20100%20Random%20Length%20adjacent%20MIDI%20items.lua</source>
+      </version>
+    </reapack>
+    <reapack name="BJ_Create 500 Items.lua" type="script" desc="BJ_Create 500 Items">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 This script simulates a long e-learning project for use in demonstrations bu adding 500 items on a track, separated by a few seconds of silence between items. Select the track and place the edit cursor where you want to add the items, then run the script.\par}
+}
+]]></description>
+        <link rel="donation">https://www.buymeacoffee.com/boothjunkie</link>
+      </metadata>
+      <version name="1.0" author="Mike DelGaudio" time="2025-08-08T23:23:36Z">
+        <source main="main">https://github.com/BoothJunkie/ReaScripts/raw/937f3089beff68237cbe3057e8fc957310aabca0/Demonstration%20Tools/BJ_Create%20500%20Items.lua</source>
+      </version>
+    </reapack>
+    <reapack name="BJ_Create Regions Based on Subdivision with GUI.lua" type="script" desc="Create Regions Based on Subdivision with GUI">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 Create Regions Based on Subdivision with GUI\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 This script creates consecutive regions for each beat in a measure based on user-defined subdivisions within a selected time range in Reaper. Subdivisions include whole, half, quarter, eighth, sixteenth, thirty-second, and sixty-fourth notes. To use, make a time selection in the ruler, run the script, and select the desired subdivision value from the GUI.\par}
 }
 ]]></description>
       </metadata>
-      <version name="1.0" author="cfillion" time="2021-01-04T23:30:32Z">
-        <source main="main">https://github.com/cfillion/reapack-repository-template/raw/58a3e39ba95bd0f35846aa1f39aa4cb2574295e1/Example/cfillion_Hello%20world.lua</source>
+      <version name="1.1" time="2025-08-08T23:23:36Z">
+        <changelog><![CDATA[Added ReaImGui-based GUI for selecting subdivisions]]></changelog>
+        <source main="main">https://github.com/BoothJunkie/ReaScripts/raw/937f3089beff68237cbe3057e8fc957310aabca0/Demonstration%20Tools/BJ_Create%20Regions%20Based%20on%20Subdivision%20with%20GUI.lua</source>
+      </version>
+    </reapack>
+    <reapack name="BJ_Item Creator.lua" type="script" desc="BJ_Item Creator (Configurable Item Generator)">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 This script creates either MIDI or empty items on the active track based on user input. The user can specify the item type (1 for MIDI, 2 for empty), number of items, item length, space between items, whether to create regions, item name pattern, and see help for item patterns. The item name pattern can include a base name with a placeholder for numbering (e.g., "Item %02d" for zero-padded numbers).\par}
+}
+]]></description>
+        <link rel="donation">https://www.buymeacoffee.com/boothjunkie</link>
+      </metadata>
+      <version name="1.4" author="Mike DelGaudio" time="2025-08-08T23:45:20Z">
+        <source main="main">https://github.com/BoothJunkie/ReaScripts/raw/6f506b2fea377f479b19a7859ae39b49417d01b7/Demonstration%20Tools/BJ_Item%20Creator.lua</source>
+      </version>
+    </reapack>
+  </category>
+  <category name="Project Organization">
+    <reapack name="BJ_ColorItemsBasedonTrackColor.lua" type="script" desc="BJ_ColorItemsBasedonTrackColor">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Will color any items on a track to the color of the track panel. Select tracks with items that you want to color. You can select items across multiple tracks. This mimics the default behavior of items on colored tracks, except that the color will remain if the item moves to a new track, which helps identify if items have moved to new tracks inadvertently.\par}
+}
+]]></description>
+        <link rel="donation">https://www.buymeacoffee.com/boothjunkie</link>
+      </metadata>
+      <version name="1.0" author="Mike DelGaudio" time="2025-08-08T23:23:36Z">
+        <source main="main">https://github.com/BoothJunkie/ReaScripts/raw/937f3089beff68237cbe3057e8fc957310aabca0/Project%20Organization/BJ_ColorItemsBasedonTrackColor.lua</source>
+      </version>
+    </reapack>
+    <reapack name="BJ_ColorRegionsBasedonRRMSelection.lua" type="script" desc="BJ_ColorRegionsbasedonRRMSelection">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Will color regions to match the color of the track based on selection in the Region Render Matrix. Use the Region Render Matrix and select regions that you want colored the same as the track. This is helpful for projects with many regions on multiple tracks that need to be rendered according to the Region Render Matrix. If a region is selected on multiple tracks, the topmost track color takes precedence.\par}
+}
+]]></description>
+        <link rel="donation">https://www.buymeacoffee.com/boothjunkie</link>
+      </metadata>
+      <version name="1.0" author="Mike DelGaudio" time="2025-08-08T23:23:36Z">
+        <source main="main">https://github.com/BoothJunkie/ReaScripts/raw/937f3089beff68237cbe3057e8fc957310aabca0/Project%20Organization/BJ_ColorRegionsBasedonRRMSelection.lua</source>
+      </version>
+    </reapack>
+  </category>
+  <category name="Regions Markers and Cueing">
+    <reapack name="BJ_Add Last region to RRM.lua" type="script" desc="BJ_Add Last Region to RRM (Master)">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Adds the most recently created region to the Region Render Matrix for the Master track. Intended for workflows like audiobook pickups, where each region is rendered individually. Used in tandem with BJ_Clear RRM - All Tracks to progressively build a custom render queue.\par}
+}
+]]></description>
+        <link rel="donation">https://www.buymeacoffee.com/boothjunkie</link>
+      </metadata>
+      <version name="1.0" author="Mike DelGaudio" time="2025-08-08T23:23:36Z">
+        <source main="main">https://github.com/BoothJunkie/ReaScripts/raw/937f3089beff68237cbe3057e8fc957310aabca0/Regions%20Markers%20and%20Cueing/BJ_Add%20Last%20region%20to%20RRM.lua</source>
+      </version>
+    </reapack>
+    <reapack name="BJ_Add Midi Beep to selected Tracks at Edit Cursor.lua" type="script" desc="BJ_Add MIDI Beep to selected Tracks at Edit Cursor">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Adds a new MIDI item with a 32nd note at C5 placed at the Edit Cursor and a ReaSynth plugin for selected tracks, for use as an audible marker or separator. Place edit cursor at desired point, and select at least one track. (First track will be autoselected if only one track exists in project) THis is useful when sending the audio to an editor, so they can "see" the audiible marker in the waveform.\par}
+}
+]]></description>
+        <link rel="donation">https://www.buymeacoffee.com/boothjunkie</link>
+      </metadata>
+      <version name="1.0" author="Mike DelGaudio" time="2025-08-08T23:23:36Z">
+        <source main="main">https://github.com/BoothJunkie/ReaScripts/raw/937f3089beff68237cbe3057e8fc957310aabca0/Regions%20Markers%20and%20Cueing/BJ_Add%20Midi%20Beep%20to%20selected%20Tracks%20at%20Edit%20Cursor.lua</source>
+      </version>
+    </reapack>
+    <reapack name="BJ_Clear RRM - All Tracks.lua" type="script" desc="BJ_Clear RRM - All Tracks">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Clears all region-to-track assignments in the Region Render Matrix. Useful for resetting export states in large, complex sessions.\par}
+}
+]]></description>
+        <link rel="donation">https://www.buymeacoffee.com/boothjunkie</link>
+      </metadata>
+      <version name="1.1" author="Mike DelGaudio" time="2025-08-08T23:23:36Z">
+        <source main="main">https://github.com/BoothJunkie/ReaScripts/raw/937f3089beff68237cbe3057e8fc957310aabca0/Regions%20Markers%20and%20Cueing/BJ_Clear%20RRM%20-%20All%20Tracks.lua</source>
+      </version>
+    </reapack>
+    <reapack name="BJ_Create Named regions for all selected items.lua" type="script" desc="BJ_Create Regions for Selected Items (Named by Filename)">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Creates a region for each selected media item, naming each region using the item\u8217's source filename. Ideal for batch organizing externally delivered assets like ADR, VO pickups, or dialogue chunks.\par}
+}
+]]></description>
+        <link rel="donation">https://www.buymeacoffee.com/boothjunkie</link>
+      </metadata>
+      <version name="1.0" author="Mike DelGaudio" time="2025-08-08T23:23:36Z">
+        <source main="main">https://github.com/BoothJunkie/ReaScripts/raw/937f3089beff68237cbe3057e8fc957310aabca0/Regions%20Markers%20and%20Cueing/BJ_Create%20Named%20regions%20for%20all%20selected%20items.lua</source>
+      </version>
+    </reapack>
+    <reapack name="BJ_Create Regions for Selected Items.lua" type="script" desc="BJ_Create Regions for Selected Items">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Creates a region for each selected media item in the project. Useful when preparing externally delivered audio files for editing, QA, or region-based rendering.\par}
+}
+]]></description>
+        <link rel="donation">https://www.buymeacoffee.com/boothjunkie</link>
+      </metadata>
+      <version name="1.0" author="Mike DelGaudio" time="2025-08-08T23:23:36Z">
+        <source main="main">https://github.com/BoothJunkie/ReaScripts/raw/937f3089beff68237cbe3057e8fc957310aabca0/Regions%20Markers%20and%20Cueing/BJ_Create%20Regions%20for%20Selected%20Items.lua</source>
+      </version>
+    </reapack>
+    <reapack name="BJ_Delete Regions Within Time Selection..lua" type="script" desc="BJ_Delete Regions Within Time Selection">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Deletes any regions that are fully or partially within the current time selection. Useful for cleanup during revision, region replacement, or preparing pickups.\par}
+}
+]]></description>
+        <link rel="donation">https://www.buymeacoffee.com/boothjunkie</link>
+      </metadata>
+      <version name="1.0.2" author="Mike DelGaudio" time="2025-08-08T23:23:36Z">
+        <source main="main">https://github.com/BoothJunkie/ReaScripts/raw/937f3089beff68237cbe3057e8fc957310aabca0/Regions%20Markers%20and%20Cueing/BJ_Delete%20Regions%20Within%20Time%20Selection..lua</source>
+      </version>
+    </reapack>
+    <reapack name="BJ_Insert 30 seconds of space between selected Items.lua" type="script" desc="BJ_Insert 30 Seconds of Space Between Selected Items">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Shifts selected media items so that each has 30 seconds of space between it and the next. Especially useful after importing VO chunks or external takes where visual clarity is needed before region creation.\par}
+}
+]]></description>
+        <link rel="donation">https://www.buymeacoffee.com/boothjunkie</link>
+      </metadata>
+      <version name="1.0" author="Mike DelGaudio" time="2025-08-08T23:23:36Z">
+        <source main="main">https://github.com/BoothJunkie/ReaScripts/raw/937f3089beff68237cbe3057e8fc957310aabca0/Regions%20Markers%20and%20Cueing/BJ_Insert%2030%20seconds%20of%20space%20between%20selected%20Items.lua</source>
+      </version>
+    </reapack>
+    <reapack name="BJ_Move edit cursor time timestamp relative to current region.lua" type="script" desc="BJ_Move Edit Cursor to Timestamp Relative to Current Region (with Marker Prompt)">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Prompts you for a mm:ss timestamp relative to the current region, then moves the edit cursor to that offset and optionally opens the marker dialog. Perfect for audiobook pickups or long-form review, where corrections reference a chapter-based timeline.\par}
+}
+]]></description>
+        <link rel="donation">https://www.buymeacoffee.com/boothjunkie</link>
+      </metadata>
+      <version name="1.0" author="Mike DelGaudio" time="2025-08-08T23:23:36Z">
+        <source main="main">https://github.com/BoothJunkie/ReaScripts/raw/937f3089beff68237cbe3057e8fc957310aabca0/Regions%20Markers%20and%20Cueing/BJ_Move%20edit%20cursor%20time%20timestamp%20relative%20to%20current%20region.lua</source>
+      </version>
+    </reapack>
+    <reapack name="BJ_Move playhead to start of previous or current region and start playing.lua" type="script" desc="BJ_Move Playhead to Start of Previous or Current Region and Start Playback">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Moves the play cursor to the start of the previous or current region and starts playback. Complements the \u8220"next region\u8221" script for bidirectional region-based navigation.\par}
+}
+]]></description>
+        <link rel="donation">https://www.buymeacoffee.com/boothjunkie</link>
+      </metadata>
+      <version name="1.0" author="Mike DelGaudio" time="2025-08-08T23:23:36Z">
+        <source main="main">https://github.com/BoothJunkie/ReaScripts/raw/937f3089beff68237cbe3057e8fc957310aabca0/Regions%20Markers%20and%20Cueing/BJ_Move%20playhead%20to%20start%20of%20previous%20or%20current%20region%20and%20start%20playing.lua</source>
+      </version>
+    </reapack>
+    <reapack name="BJ_Move playhead to start of the next region and start playback.lua" type="script" desc="BJ_Move Playhead to Start of Next Region and Start Playback">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Moves the play cursor to the start of the next region in the timeline and starts playback immediately. Intended for fast cue-to-cue proofing of long-form recordings or audiobooks with regions.\par}
+}
+]]></description>
+        <link rel="donation">https://www.buymeacoffee.com/boothjunkie</link>
+      </metadata>
+      <version name="1.0" author="Mike DelGaudio" time="2025-08-08T23:23:36Z">
+        <source main="main">https://github.com/BoothJunkie/ReaScripts/raw/937f3089beff68237cbe3057e8fc957310aabca0/Regions%20Markers%20and%20Cueing/BJ_Move%20playhead%20to%20start%20of%20the%20next%20region%20and%20start%20playback.lua</source>
+      </version>
+    </reapack>
+    <reapack name="BJ_Quick Markers.lua" type="script" desc="BJ_Quick Markers (Accessible Dockable Interface)">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Adds markers with predefined, color-coded keywords via a dockable GUI. Includes prompt mode for additional context and colorblind-friendly visual design.\par}
+}
+]]></description>
+        <link rel="donation">https://www.buymeacoffee.com/boothjunkie</link>
+      </metadata>
+      <version name="2.2" author="Mike DelGaudio" time="2025-08-08T23:23:36Z">
+        <source main="main">https://github.com/BoothJunkie/ReaScripts/raw/937f3089beff68237cbe3057e8fc957310aabca0/Regions%20Markers%20and%20Cueing/BJ_Quick%20Markers.lua</source>
+      </version>
+    </reapack>
+  </category>
+  <category name="Track Tools">
+    <reapack name="BJ_CreateNewTrackWithColorAfterFirstSelectedTrack.lua" type="script" desc="BJ_CreateNewTrackWithColorAfterFirstSelectedTrack">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Mimics the "Insert New Track" function, but inserts a new track with a random color after the first selected track. If multiple tracks are selected, the new track will appear after the top-most selected track.\par}
+}
+]]></description>
+        <link rel="donation">https://www.buymeacoffee.com/boothjunkie</link>
+      </metadata>
+      <version name="1.0" author="Mike DelGaudio" time="2025-08-08T23:23:36Z">
+        <source main="main">https://github.com/BoothJunkie/ReaScripts/raw/937f3089beff68237cbe3057e8fc957310aabca0/Track%20Tools/BJ_CreateNewTrackWithColorAfterFirstSelectedTrack.lua</source>
+      </version>
+    </reapack>
+    <reapack name="BJ_CreateNewTrackWithColorAsFirstTrack.lua" type="script" desc="BJ_CreateNewTrackWithColorAsFirstTrack">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Inserts a new track as the first track in the project and assigns it a random color.\par}
+}
+]]></description>
+        <link rel="donation">https://www.buymeacoffee.com/boothjunkie</link>
+      </metadata>
+      <version name="1.0" author="Mike DelGaudio" time="2025-08-08T23:23:36Z">
+        <source main="main">https://github.com/BoothJunkie/ReaScripts/raw/937f3089beff68237cbe3057e8fc957310aabca0/Track%20Tools/BJ_CreateNewTrackWithColorAsFirstTrack.lua</source>
+      </version>
+    </reapack>
+    <reapack name="BJ_CreateNewTrackWithColorasLastTrack.lua" type="script" desc="BJ_CreateNewTrackWithColorAsLastTrack">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Mimics the "Insert New Track" function, but inserts a new track at the bottom of the track list with a random color.\par}
+}
+]]></description>
+        <link rel="donation">https://www.buymeacoffee.com/boothjunkie</link>
+      </metadata>
+      <version name="1.0" author="Mike DelGaudio" time="2025-08-08T23:23:36Z">
+        <source main="main">https://github.com/BoothJunkie/ReaScripts/raw/937f3089beff68237cbe3057e8fc957310aabca0/Track%20Tools/BJ_CreateNewTrackWithColorasLastTrack.lua</source>
+      </version>
+    </reapack>
+    <reapack name="BJ_Set al Selected Tracks to default color.lua" type="script" desc="BJ_Set Selected Tracks to Default Color">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Removes any custom color from selected tracks, restoring Reaper's default track color. Complements "BJ_Set Selected Tracks to Random Colors" by reverting changes.\par}
+}
+]]></description>
+        <link rel="donation">https://www.buymeacoffee.com/boothjunkie</link>
+      </metadata>
+      <version name="1.0" author="Mike DelGaudio" time="2025-08-08T23:23:36Z">
+        <source main="main">https://github.com/BoothJunkie/ReaScripts/raw/937f3089beff68237cbe3057e8fc957310aabca0/Track%20Tools/BJ_Set%20al%20Selected%20Tracks%20to%20default%20color.lua</source>
+      </version>
+    </reapack>
+    <reapack name="BJ_Set all tracks to a defined height.lua" type="script" desc="BJ_Set all tracks to defined height">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Sets the height of all tracks in the project to a default value. Configure the defaultHeight variable at the beginning of the script, then run this action to adjust all tracks to this height.\par}
+}
+]]></description>
+        <link rel="donation">https://www.buymeacoffee.com/boothjunkie</link>
+      </metadata>
+      <version name="1.0" author="Mike DelGaudio" time="2025-08-08T23:23:36Z">
+        <source main="main">https://github.com/BoothJunkie/ReaScripts/raw/937f3089beff68237cbe3057e8fc957310aabca0/Track%20Tools/BJ_Set%20all%20tracks%20to%20a%20defined%20height.lua</source>
+      </version>
+    </reapack>
+    <reapack name="BJ_Set Selected Track Height Large.lua" type="script" desc="BJ_Set Selected Track height to Large">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Sets the height of any selected track to 300 pixels. Useful for quick resizing of track heights for editing and using free item positioning. Select the track you want to make tall and run this action.\par}
+}
+]]></description>
+        <link rel="donation">https://www.buymeacoffee.com/boothjunkie</link>
+      </metadata>
+      <version name="1.0" author="Mike DelGaudio" time="2025-08-08T23:23:36Z">
+        <source main="main">https://github.com/BoothJunkie/ReaScripts/raw/937f3089beff68237cbe3057e8fc957310aabca0/Track%20Tools/BJ_Set%20Selected%20Track%20Height%20Large.lua</source>
+      </version>
+    </reapack>
+    <reapack name="BJ_Set Selected Track Height Medium.lua" type="script" desc="BJ_Set Selected Track height to Medium">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Sets the height of any selected track to 200 pixels. Useful for quick resizing of track heights for editing and using free item positioning. Select the track you want to make medium-sized and run this action.\par}
+}
+]]></description>
+        <link rel="donation">https://www.buymeacoffee.com/boothjunkie</link>
+      </metadata>
+      <version name="1.0" author="Mike DelGaudio" time="2025-08-08T23:23:36Z">
+        <source main="main">https://github.com/BoothJunkie/ReaScripts/raw/937f3089beff68237cbe3057e8fc957310aabca0/Track%20Tools/BJ_Set%20Selected%20Track%20Height%20Medium.lua</source>
+      </version>
+    </reapack>
+    <reapack name="BJ_Set Selected Track Height Small.lua" type="script" desc="BJ_Set Selected Track height to Small">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Sets the height of any selected track to 100 pixels. Useful for quick resizing of track heights for editing and using free item positioning. Select the track you want to make small-sized and run this action.\par}
+}
+]]></description>
+        <link rel="donation">https://www.buymeacoffee.com/boothjunkie</link>
+      </metadata>
+      <version name="1.0" author="Mike DelGaudio" time="2025-08-08T23:52:42Z">
+        <source main="main">https://github.com/BoothJunkie/ReaScripts/raw/74eec82e64e8c9e1bb66544d602db4eea94db254/Track%20Tools/BJ_Set%20Selected%20Track%20Height%20Small.lua</source>
+      </version>
+    </reapack>
+    <reapack name="BJ_Set Selected Track Height Tiny.lua" type="script" desc="BJ_Set Selected Track height to Tiny">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Sets the height of any selected track to 30 pixels. Useful for quick resizing of track heights for editing and using free item positioning. Select the track you want to make tiny-sized and run this action.\par}
+}
+]]></description>
+        <link rel="donation">https://www.buymeacoffee.com/boothjunkie</link>
+      </metadata>
+      <version name="1.0" author="Mike DelGaudio" time="2025-08-08T23:23:36Z">
+        <source main="main">https://github.com/BoothJunkie/ReaScripts/raw/937f3089beff68237cbe3057e8fc957310aabca0/Track%20Tools/BJ_Set%20Selected%20Track%20Height%20Tiny.lua</source>
+      </version>
+    </reapack>
+    <reapack name="BJ_Set Selected Track Height to Default.lua" type="script" desc="BJ_Set Selected Track height to Default">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Resets the height of any selected track to its default value. Instructions: Select the tracks you want to reset and run this action.\par}
+}
+]]></description>
+        <link rel="donation">https://www.buymeacoffee.com/boothjunkie</link>
+      </metadata>
+      <version name="1.0" author="Mike DelGaudio" time="2025-08-08T23:23:36Z">
+        <source main="main">https://github.com/BoothJunkie/ReaScripts/raw/937f3089beff68237cbe3057e8fc957310aabca0/Track%20Tools/BJ_Set%20Selected%20Track%20Height%20to%20Default.lua</source>
+      </version>
+    </reapack>
+    <reapack name="BJ_Set Selected Track Height XL.lua" type="script" desc="BJ_Set Selected Track height to XL">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Sets the height of any selected track to 500 pixels. Useful for quick resizing of track heights for editing and using free item positioning. Select the track you want to make extra tall and run this action.\par}
+}
+]]></description>
+        <link rel="donation">https://www.buymeacoffee.com/boothjunkie</link>
+      </metadata>
+      <version name="1.0" author="Mike DelGaudio" time="2025-08-08T23:23:36Z">
+        <source main="main">https://github.com/BoothJunkie/ReaScripts/raw/937f3089beff68237cbe3057e8fc957310aabca0/Track%20Tools/BJ_Set%20Selected%20Track%20Height%20XL.lua</source>
+      </version>
+    </reapack>
+    <reapack name="BJ_Set Selected Tracks to Custom Height.lua" type="script" desc="BJ_Set Selected Tracks to custom height">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Sets the height of any selected track to a given pixel height. Useful for quick resizing of track heights for editing and using free item positioning. This script serves as the basis for other Booth Junkie Track Resizing actions. You can copy this script to a new file, rename it, and change the number in the last line to set a different height.\par}
+}
+]]></description>
+        <link rel="donation">https://www.buymeacoffee.com/boothjunkie</link>
+      </metadata>
+      <version name="1.0" author="Mike DelGaudio" time="2025-08-08T23:23:36Z">
+        <source main="main">https://github.com/BoothJunkie/ReaScripts/raw/937f3089beff68237cbe3057e8fc957310aabca0/Track%20Tools/BJ_Set%20Selected%20Tracks%20to%20Custom%20Height.lua</source>
+      </version>
+    </reapack>
+    <reapack name="BK_Set Selected Tracks to Random Colors.lua" type="script" desc="BJ_Set Selected Tracks to Random Colors">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Applies a unique random color to each selected track. Useful for visual organization when working with large projects, dialog stems, or temp tracks.\par}
+}
+]]></description>
+        <link rel="donation">https://www.buymeacoffee.com/boothjunkie</link>
+      </metadata>
+      <version name="1.0" author="Mike DelGaudio" time="2025-08-08T23:23:36Z">
+        <source main="main">https://github.com/BoothJunkie/ReaScripts/raw/937f3089beff68237cbe3057e8fc957310aabca0/Track%20Tools/BK_Set%20Selected%20Tracks%20to%20Random%20Colors.lua</source>
+      </version>
+    </reapack>
+  </category>
+  <category name="Utilities">
+    <reapack name="BJ_Censor Beep of Time Selection Length.lua" type="script" desc="BJ_Censor Beep of Time Selection Length">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Creates a MIDI item with a C6 note and ReaSynth that spans the current time selection. Designed for podcast editors and content creators who need to censor language or sensitive content. Non-destructive and fast: select a time range, select a track, run script.\par}
+}
+]]></description>
+        <link rel="donation">https://www.buymeacoffee.com/boothjunkie</link>
+      </metadata>
+      <version name="1.0" author="Mike DelGaudio" time="2025-08-08T23:23:36Z">
+        <source main="main">https://github.com/BoothJunkie/ReaScripts/raw/937f3089beff68237cbe3057e8fc957310aabca0/Utilities/BJ_Censor%20Beep%20of%20Time%20Selection%20Length.lua</source>
+      </version>
+    </reapack>
+    <reapack name="BJ_Open Project Path in Finder : Explorer.lua" type="script" desc="BJ_Open Project Path in Finder / Explorer">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Opens the system file manager (Finder on macOS or Explorer on Windows) at the directory of the current project file. Replicates the familiar "Show in Finder" or "Open in Explorer" functionality common in many DAWs and apps.\par}
+}
+]]></description>
+        <link rel="donation">https://www.buymeacoffee.com/boothjunkie</link>
+      </metadata>
+      <version name="1.0" author="Mike DelGaudio" time="2025-08-08T23:23:36Z">
+        <source main="main">https://github.com/BoothJunkie/ReaScripts/raw/937f3089beff68237cbe3057e8fc957310aabca0/Utilities/BJ_Open%20Project%20Path%20in%20Finder%20:%20Explorer.lua</source>
+      </version>
+    </reapack>
+    <reapack name="BJ_Quick_Horizontal_Zoom.lua" type="script" desc="Zoom to 5 seconds around edit cursor (2.5 seconds on each side)">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 This script zooms the arrange view to a 5-second window centered around the edit cursor (2.5 seconds on each side). It prevents negative start times and updates the arrange view immediately.\par}
+}
+]]></description>
+        <link rel="donation">https://www.buymeacoffee.com/boothjunkie</link>
+      </metadata>
+      <version name="1.0" author="Mike DelGaudio" time="2025-08-11T19:07:44Z">
+        <source main="main">https://github.com/BoothJunkie/ReaScripts/raw/51e6ad16390b822fcb85d081139bf6deeffaf675/Utilities/BJ_Quick_Horizontal_Zoom.lua</source>
+      </version>
+    </reapack>
+    <reapack name="BJ_Toggle Master Playrate 1.0-1.8 (Preserve Pitch).lua.lua" type="script" desc="BJ_Toggle Master Playrate between 1.0 and 1.8 (Preserve Pitch)">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Toggles the master playrate between 1.0x and 1.8x speed while preserving pitch. Intended for rapid review of long-form recordings (e.g., audiobooks, e-learning). Pitch is preserved automatically on first run.\par}
+}
+]]></description>
+        <link rel="donation">https://www.buymeacoffee.com/boothjunkie</link>
+      </metadata>
+      <version name="1.0" author="Mike DelGaudio" time="2025-08-08T23:23:36Z">
+        <source main="main">https://github.com/BoothJunkie/ReaScripts/raw/937f3089beff68237cbe3057e8fc957310aabca0/Utilities/BJ_Toggle%20Master%20Playrate%201.0-1.8%20(Preserve%20Pitch).lua.lua</source>
       </version>
     </reapack>
   </category>
   <metadata>
-    <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
+    <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
-{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 ReaPack Repository Template\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 A template for GitHub-hosted ReaPack repositories with automated {\field{\*\fldinst{HYPERLINK "https://github.com/cfillion/reapack-index"}}{\fldrslt{\ul
-reapack-index
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 BoothJunkie ReaScripts\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 A growing collection of ReaScripts to help organize projects, streamline workflows, and improve efficiency in Reaper.\par}
+{\pard \qc \f0 \sa180 \li0 \fi0 \emdash\emdash\emdash\emdash\emdash\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 \u55357 ?\u56550 ? Script Categories\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab {\field{\*\fldinst{HYPERLINK "./Regions%20Markers%20and%20Cueing/README.md"}}{\fldrslt{\ul
+Regions Makers and Cueing
 }}}
- running from GitHub Actions.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Replace the name of the repository in {\field{\*\fldinst{HYPERLINK "/index.xml"}}{\fldrslt{\ul
-index.xml
+ \u8211- Making your projects eacier to navigate\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab {\field{\*\fldinst{HYPERLINK "./Track%20Tools/README.md"}}{\fldrslt{\ul
+Track Tools
 }}}
- when using this template. This will be the name shown in ReaPack.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 \f1 <index version="1" name="Name of your repository here">\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Replace the contents of this file ({\field{\*\fldinst{HYPERLINK "/README.md"}}{\fldrslt{\ul
-README.md
+ \u8211- Scripts to help make tracks easier to use in larger projects\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab {\field{\*\fldinst{HYPERLINK "./Project%20Organization/README.md"}}{\fldrslt{\ul
+Project Organization
 }}}
-). This will be the text shown when using ReaPack's "About this repository" feature.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 reapack-index looks for package files in subfolders. The folder tree represents the package categories shown in ReaPack.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Each package file is expected to begin with a metadata header. See {\field{\*\fldinst{HYPERLINK "https://github.com/cfillion/reapack-index/wiki/Packaging-Documentation"}}{\fldrslt{\ul
-Packaging Documentation
+ \u8211- Making your projects eacier to navigate\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab {\field{\*\fldinst{HYPERLINK "./Utilities/README.md"}}{\fldrslt{\ul
+Utilities
 }}}
- on reapack-index's wiki.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 The URL to import in ReaPack is {\field{\*\fldinst{HYPERLINK "https://github.com/cfillion/reapack-repository-template/raw/master/index.xml"}}{\fldrslt{\ul
-https://github.com/{\f1 <your username>}/{\f1 <repository name>}/raw/master/index.xml
+ \u8211- Utility helper scripts that don't fit in the other categories\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab {\field{\*\fldinst{HYPERLINK "./Billing%20and%20Reports/README.md"}}{\fldrslt{\ul
+Billing and Reports
+}}}
+ \u8211- Scripts to help you with invoicing, billing customers or reports.\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 \bullet \tx360\tab {\field{\*\fldinst{HYPERLINK "./Demonstration%20Tools/README.md"}}{\fldrslt{\ul
+Demonstration Tools
+}}}
+ \u8211- Scripts that help create items for testing other scripts.\sa180\par}
+{\pard \qc \f0 \sa180 \li0 \fi0 \emdash\emdash\emdash\emdash\emdash\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 \u55357 ?\u56615 ? Installation via ReaPack\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 1.\tx360\tab Add this repo as a ReaPack source.\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 2.\tx360\tab Synchronize packages.\par}
+{\pard \ql \f0 \sa0 \li360 \fi-360 3.\tx360\tab Browse and install scripts by category.\sa180\par}
+{\pard \qc \f0 \sa180 \li0 \fi0 \emdash\emdash\emdash\emdash\emdash\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel1 \b \fs32 \u9749 ? Support\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 If you find these useful, {\field{\*\fldinst{HYPERLINK "https://www.buymeacoffee.com/boothjunkie"}}{\fldrslt{\ul
+buy me a coffee
 }}}
 .\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 ~Q~\par}
 }
 ]]></description>
   </metadata>
