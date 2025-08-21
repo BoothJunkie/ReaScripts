@@ -237,3 +237,5 @@ You've colored tracks for clarity or testing but want to restore them to a clean
 
 **Pro Tip:**  
 Use this after running `BJ_Set Selected Tracks to Random Colors` to quickly undo all color changes.
+
+~Q~
