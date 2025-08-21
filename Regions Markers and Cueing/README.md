@@ -1,3 +1,24 @@
+
+
+###BJ_YouTube Chapter Maker
+
+Automatically generates YouTube chapter timestamps from your REAPER project markers. Creates properly formatted text files that can be copied directly into YouTube video descriptions. Supports both region-based workflows (for batch processing multiple videos) and timeline-based workflows (for single videos). Ensures YouTube compliance by automatically adding required 0:00 chapters and maintaining ascending timestamp order.
+
+**How to use:**
+* Place markers on your timeline starting with "CHAP=" followed by the chapter title (e.g., "CHAP=Introduction", "CHAP=Main Topic").
+* **With Regions:** Create named regions to define video boundaries. Each region becomes a separate YouTube chapter file with timestamps relative to the region start.
+* **Without Regions:** The script processes the entire timeline, using absolute timestamps from project start.
+* Run the script.
+
+The script creates:
+* YOUTUBE-[RegionName].txt files (or YOUTUBE-[ProjectName].txt if no regions)
+* Properly formatted timestamps (M:SS format) with chapter titles
+* Automatic 0:00 chapter insertion using region/project name if no marker exists at start
+* Opens your project folder automatically for easy file access
+
+**Perfect for:** Content creators who need to quickly generate YouTube chapter timestamps from their video editing workflow in REAPER.
+
+---
 ### BJ_Add MIDI Beep to selected Tracks at Edit Cursor
 
 Adds a short MIDI note (C5) at the edit cursor using ReaSynth on selected tracks.  
